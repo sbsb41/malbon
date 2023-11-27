@@ -1,0 +1,493 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------reset code----------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    min-width: 1200px;
+    margin: 0px 20px;
+}
+
+#malbon{
+    width: 133px;
+    height: 33px;
+    background-image: url("https://malbongolfkorea.com/_skin/sw_kor/img/logo/top_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+#search{
+    width: 380px;
+    height: 30px;
+}
+
+#search > input:first-child{
+    border: none;
+    border-bottom:  1px solid black;
+    font-size: 14px;
+    width: 350px;
+    height: 17px;
+    outline: none;
+    padding: 15px 0px;
+}
+
+#log > ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#log2{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+background-color: #005542;
+text-align: center;
+font-size: 15px;
+vertical-align: top;
+}
+
+#log2 > a{
+line-height: 18px;
+font-weight: 700;
+color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+nav > ul > li{
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+#nav1{
+    display: flex;
+}
+
+#nav1 > li > a{
+    padding: 0px 25px;
+}
+
+#nav1-1 > a{
+    border-right: 1px solid #d9d9d9;
+    padding-right: 25px;
+}
+
+#nav2{
+    display: flex;
+}
+
+#nav2 > li > a{
+    padding: 0px 25px;
+}
+
+#container-navitems{
+    width: 100%;
+}
+
+#container-navitems > div > ul > li{
+    cursor: pointer;
+}
+
+#container-navitems > div {
+    display: flex;
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 23px;
+    background-color: white;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#container-navitems > div > ul{
+    padding: 0px 25px;
+}
+
+#container-navitems > div > ul:first-child{
+    border-right: 1px solid #d9d9d9;
+    padding: 0px 43px;
+}
+
+#container2 > ul:last-child > li{
+    padding-left: 28px;
+}
+
+.swiper-slide > img{
+    position: relative;
+    width: 1280px;
+    height: 533px;
+}
+
+#main2{
+    padding: 30px 25px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'monospace';
+}
+
+#main2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#main2 > p{
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'monospace';
+}
+
+#main3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#main3 > div > div:last-child > p:first-child{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+#main3 > div > div:last-child > p:nth-child(2){
+    font-size: 13px;
+    color: #aaa;
+}
+
+#main3 > div > div:last-child > p:last-child{
+    font-size: 14px;
+    font-weight: bold;
+    color: #153e35;
+    padding: 20px 0px;
+}
+
+#main3-1 > div:first-child{
+    width: 236px;
+    height: 236px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/02/b75cffb04d1fa2f49d1bd423b110ae3a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main3-1 > div:first-child:hover{
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/02/e5a57589b45f7df6a316a3c74c1adaa0.jpg#addimg");
+}
+
+#main3-2 > div:first-child{
+    width: 236px;
+    height: 236px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/08/030736360ff49aa44748655b2af179ea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main3-2 > div:first-child:hover{
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/08/c2abcdbe0c80941d6db68d1842d7378d.jpg#addimg");
+}
+
+#main3-3 > div:first-child{
+    width: 236px;
+    height: 236px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/06/0b5989f42d9e00a0957ccda7344a6866.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main3-3 > div:first-child:hover{
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/06/5a62d630114c05e6e39cf913b0f3573d.jpg#addimg");
+}
+
+
+#main3-4 > div:first-child{
+    width: 236px;
+    height: 236px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/08/db5a0345ff84c4b6c15429adc36b9215.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#main3-4 > div:first-child:hover{
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202311/08/b25c284c353e7498665ce03b7c2d052f.jpg#addimg");
+}
+
+#main3-5 > div:first-child{
+    width: 236px;
+    height: 236px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202310/31/a29f4b04e6d241aac4b819a1cfa92afc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main3-5 > div:first-child:hover{
+    background-image: url("https://malbongolf.wisacdn.com/_data/product/202310/31/e076de8df83a41e60f389f0c40271732.jpg#addimg");
+}
+
+#main4{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #e5e5e5;
+}
+
+#main4 > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#main4 > div:last-child{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 55px 0px;
+}
+
+#main4 > div > div:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#main4 > div > div > a{
+    font-size: 15px;
+font-family: fantasy;
+}
+
+#main4 > div > a:first-child > div{
+    width: 640px;
+    height: 235px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/banner/f8fae501f0da1d060f5c707c46430ce1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#main4 > div > a:nth-child(2) > div{
+    width: 640px;
+    height: 235px;
+    background-image: url("https://malbongolf.wisacdn.com/_data/banner/38494a872f999273d02e197e47b48a47.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0 120px 0;
+    border-top: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #aaa;
+    font-weight: bold;
+    line-height: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer > a > div{
+    width: 133px;
+    height: 30px;
+    background-image: url("https://malbongolfkorea.com/_skin/sw_kor/img/logo/bt_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 0px 30px 10px;
+}
+
+footer > div:nth-child(2){
+    margin-bottom: 20px;
+}
+
+footer > div:nth-child(2) > ul > li:nth-child(3) > a{
+    color: red;
+}
+
+footer > div > ul > li > a{
+    font-size: 12px;
+    color: #aaa;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer > div > ul{
+    display: flex;
+}
+
+footer > div > ul > li:not(:last-child){
+    border-right: 1px solid #d9d9d9;
+}
+
+footer > div > ul > li{
+    padding: 0px 10px;
+}
+
+footer > div:last-child{
+    padding: 20px 10px
+}
